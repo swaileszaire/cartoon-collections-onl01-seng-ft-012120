@@ -1,9 +1,10 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(dwarves)
+dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+dwarves.map do 
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer_calls)
+planeteer_calls = ["earth","wind", "fire", "water", "heart"] |do| (planeteer_calls).capitalizen << ! 
 end
 
 def long_planeteer_calls# code an argument here
