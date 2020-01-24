@@ -10,11 +10,10 @@ end
 def long_planeteer_calls?(calls)
   calls = "puff", "Bowie", "controller", "grass"
   calls.find do 
-    if |calls|
-  
+    if |calls| <= 4 then = true 
+      else |calls| >= 4 then = false
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-end
+  
