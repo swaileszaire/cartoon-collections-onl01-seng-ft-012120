@@ -8,7 +8,9 @@ planeteer_calls = ["earth","wind", "fire", "water", "heart"] |do| (planeteer_cal
 end
 
 def long_planeteer_calls?(calls)
-  
+  calls = "puff", "Bowie", "controller", "grass"
+  calls.find do 
+    
   
 end
 
