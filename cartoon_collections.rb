@@ -4,7 +4,7 @@ dwarves.map do
 end
 
 def summon_captain_planet(planeteer_calls)
-planeteer_calls = ["earth","wind", "fire", "water", "heart"] do (planeteer_calls).capitalizen << ! 
+planeteer_calls = ["earth","wind", "fire", "water", "heart"].capitalize do |planeteer_calls|
 end
 
 def long_planeteer_calls?(calls)
